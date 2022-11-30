@@ -6,7 +6,7 @@
 /*   By: csenand <csenand@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 12:24:05 by csenand           #+#    #+#             */
-/*   Updated: 2022/11/23 12:50:16 by csenand          ###   ########.fr       */
+/*   Updated: 2022/11/30 15:08:56 by csenand          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,10 @@
 #  define BUFFER_SIZE 4
 # endif
 
-# include <stdlib.h>
-# include <unistd.h>
 # include <fcntl.h>
 # include <limits.h>
+# include <stdlib.h>
+# include <unistd.h>
 
 /*	get_next_line.c	*/
 

@@ -6,7 +6,7 @@
 /*   By: csenand <csenand@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/23 11:56:37 by csenand           #+#    #+#             */
-/*   Updated: 2022/11/23 15:15:26 by csenand          ###   ########.fr       */
+/*   Updated: 2022/11/30 15:08:32 by csenand          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ char	*get_next_line(int fd)
 	static char	*stock[OPEN_MAX];
 	char		*line;
 
-	if (fd < 0 || fd > 1023 || BUFFER_SIZE <= 0)
+	if (fd < 0 || fd > 1024 || BUFFER_SIZE <= 0)
 		return (NULL);
 	stock[fd] = ft_read_and_stock(fd, stock[fd]);
 	if (!stock[fd])
